@@ -22,8 +22,6 @@ const TotalBalanceBox = ({
                 gap-2'>
                     <AnimatedCounter amount=
                     {totalCurrentBalance}/>
-                    
-                    {/* {formatAmount(totalCurrentBalance)} */}
                 </div>
             </div>
         </div>

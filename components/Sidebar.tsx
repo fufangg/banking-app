@@ -19,10 +19,10 @@ const Sidebar = ({user}: SiderbarProps) => {
                 <Image src="/icons/logo.svg" 
                 width={34}
                 height={34}
-                alt='Horizon Logo'
+                alt='Funance Logo'
                 className='size-[24px] max-xl:size-14'
                 />
-                <h1 className='sidebar-logo'>Horizon</h1>
+                <h1 className='sidebar-logo'>Funance</h1>
             </Link>
 
             {sidebarLinks.map((item) => {
