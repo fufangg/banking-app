@@ -2,8 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import BankCard from "./BankCard";
-import Category from "./Category";
+
 import { countTransactionCategories } from "@/lib/utils";
+import CategoriesDoughnutChart from "./CategoriesDoughnutChart";
 
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
 
@@ -61,9 +62,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
         <div className="mt-10 flex flex-1 flex-col gap-6">
           <h2 className="header-2">Top categories</h2>
           <div className='space-y-5'>
-            {categories.map((category, index) => (
-              <Category key={category.name} category={category} />
-            ))}
+              <CategoriesDoughnutChart categories={categories} />
           </div>
         </div>
       </section>
