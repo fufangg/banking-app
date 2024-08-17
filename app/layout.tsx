@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
@@ -13,7 +15,7 @@ export const metadata: Metadata = {
   title: "Funance",
   description: "Funance is a modern banking platform for everyone",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/icons/logo-funance.svg'
   }
 };
 

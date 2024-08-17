@@ -11,10 +11,10 @@ export default function RootLayout({
       <div className="auth-asset">
         <div>
           <Image
-            src="/icons/auth-image.svg"
+            src="/icons/for-bankin-app.svg"
             alt="Auth image"
-            width={500}
-            height={500}
+            width={900}
+            height={700}
             className="rounded-1-xl object-contain"
           />
         </div>

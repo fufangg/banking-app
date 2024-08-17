@@ -17,7 +17,7 @@ const Sidebar = ({user}: SiderbarProps) => {
             <Link href='/'
             className='mb-12 cursor-pointer 
             flex items-center gap-2'>
-                <Image src="/icons/logo.svg" 
+                <Image src="/icons/logo-funance.svg" 
                 width={34}
                 height={34}
                 alt='Funance Logo'
