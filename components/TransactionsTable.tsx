@@ -29,7 +29,7 @@ import {
   const TransactionsTable = ({ transactions }: TransactionTableProps) => {
     return (
       <Table>
-        <TableHeader className="bg-[#f9fafb]">
+        <TableHeader className='bg-[#040072] text-white'>
           <TableRow>
             <TableHead className="px-2">Transaction</TableHead>
             <TableHead className="px-2">Amount</TableHead>

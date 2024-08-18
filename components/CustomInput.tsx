@@ -17,9 +17,10 @@ interface CustomInput {
     name: FieldPath<z.infer<typeof formSchema>>,
     label: string,
     placeholder: string
+    maxLength?: number
 }
 
-const CustomInput = ({control, name, label, placeholder}: CustomInput) => {
+const CustomInput = ({control, name, label, placeholder, maxLength}: CustomInput) => {
   return (
     <FormField
         control={control}
@@ -35,6 +36,7 @@ const CustomInput = ({control, name, label, placeholder}: CustomInput) => {
                     placeholder={placeholder}
                     type={name === 'password'?'password':'text'}
                     className="input-class"
+                    maxLength={maxLength}
                     {...field}
                 ></Input>
                 </FormControl>

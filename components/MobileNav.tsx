@@ -62,7 +62,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                       href={item.route}
                       key={item.label}
                       className={cn("mobilenav-sheet_close w-full", {
-                        "bg-bank-gradient": isActive,
+                        "bg-[#040072]": isActive,
                       })}
                     >
                   

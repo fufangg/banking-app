@@ -18,7 +18,7 @@ const CategoriesDoughnutChart = ({ categories }: CategoryDoughnutChartProps) => 
       {
         label: 'Categories',
         data: categoryCounts,
-        backgroundColor: ['#0747b6', '#2265d8', '#2f91fa', '#4caf50', '#ff9800'], 
+        backgroundColor: [ '#040072', '#0081A7', '#00AFB9', '#333745', '#F07167' ], 
       }
     ],
     labels: categoryNames
